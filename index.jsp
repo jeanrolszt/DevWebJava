@@ -1,11 +1,18 @@
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BRL <-> USD</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>BRL -> USD</h1>
+    <div>
+        <h1>BRL <-> USD</h1>
+        <form action="converterRD.jsp" method="get">
+            <label for="real">Real</label>
+            <input type="text" name="real"> <br>
+            <label for="cotation">Cotacao</label>
+            <input type="text" name="cotacao"> <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
 </body>
 </html>
